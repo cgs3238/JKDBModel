@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3960FEBA7B74756EAA64E4B7 /* libPods-JKDBModel.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F66CE23549A6824D6A63353 /* libPods-JKDBModel.a */; };
 		610FA0101B43D36F00CA50C6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 610FA00F1B43D36F00CA50C6 /* main.m */; };
 		610FA0131B43D36F00CA50C6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 610FA0121B43D36F00CA50C6 /* AppDelegate.m */; };
 		610FA01B1B43D36F00CA50C6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 610FA01A1B43D36F00CA50C6 /* Images.xcassets */; };
@@ -18,13 +19,9 @@
 		610FA03F1B43D43B00CA50C6 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 610FA03D1B43D43B00CA50C6 /* User.m */; };
 		610FA0451B43D44300CA50C6 /* JKDBHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 610FA0421B43D44300CA50C6 /* JKDBHelper.m */; };
 		610FA0461B43D44300CA50C6 /* JKDBModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 610FA0441B43D44300CA50C6 /* JKDBModel.m */; };
-		610FA0531B43D44A00CA50C6 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 610FA0491B43D44A00CA50C6 /* FMDatabase.m */; };
-		610FA0541B43D44A00CA50C6 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 610FA04B1B43D44A00CA50C6 /* FMDatabaseAdditions.m */; };
-		610FA0551B43D44A00CA50C6 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 610FA04D1B43D44A00CA50C6 /* FMDatabasePool.m */; };
-		610FA0561B43D44A00CA50C6 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 610FA04F1B43D44A00CA50C6 /* FMDatabaseQueue.m */; };
-		610FA0571B43D44A00CA50C6 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 610FA0521B43D44A00CA50C6 /* FMResultSet.m */; };
 		610FA0591B43D47F00CA50C6 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 610FA0581B43D47F00CA50C6 /* libsqlite3.dylib */; };
 		6157C3A51B5B3A1800592F3F /* QueryTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6157C3A41B5B3A1800592F3F /* QueryTableViewController.m */; };
+		9CC5CACC384E826B0018ECEE /* libPods-JKDBModelTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0483D289E3F1713047AC5372 /* libPods-JKDBModelTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +35,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0483D289E3F1713047AC5372 /* libPods-JKDBModelTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JKDBModelTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		212E3710A058A79550D2D213 /* Pods-JKDBModelTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JKDBModelTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JKDBModelTests/Pods-JKDBModelTests.release.xcconfig"; sourceTree = "<group>"; };
+		5F66CE23549A6824D6A63353 /* libPods-JKDBModel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JKDBModel.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		610FA00A1B43D36F00CA50C6 /* JKDBModel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JKDBModel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		610FA00E1B43D36F00CA50C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		610FA00F1B43D36F00CA50C6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -59,20 +59,12 @@
 		610FA0421B43D44300CA50C6 /* JKDBHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKDBHelper.m; sourceTree = "<group>"; };
 		610FA0431B43D44300CA50C6 /* JKDBModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKDBModel.h; sourceTree = "<group>"; };
 		610FA0441B43D44300CA50C6 /* JKDBModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKDBModel.m; sourceTree = "<group>"; };
-		610FA0481B43D44A00CA50C6 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
-		610FA0491B43D44A00CA50C6 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
-		610FA04A1B43D44A00CA50C6 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
-		610FA04B1B43D44A00CA50C6 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
-		610FA04C1B43D44A00CA50C6 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
-		610FA04D1B43D44A00CA50C6 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
-		610FA04E1B43D44A00CA50C6 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
-		610FA04F1B43D44A00CA50C6 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
-		610FA0501B43D44A00CA50C6 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
-		610FA0511B43D44A00CA50C6 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
-		610FA0521B43D44A00CA50C6 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
 		610FA0581B43D47F00CA50C6 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		6157C3A31B5B3A1800592F3F /* QueryTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QueryTableViewController.h; sourceTree = "<group>"; };
 		6157C3A41B5B3A1800592F3F /* QueryTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QueryTableViewController.m; sourceTree = "<group>"; };
+		BCA6D1BEDE21B9C327265ABB /* Pods-JKDBModel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JKDBModel.release.xcconfig"; path = "Pods/Target Support Files/Pods-JKDBModel/Pods-JKDBModel.release.xcconfig"; sourceTree = "<group>"; };
+		E96AB5F8378DEA692A8A271A /* Pods-JKDBModel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JKDBModel.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JKDBModel/Pods-JKDBModel.debug.xcconfig"; sourceTree = "<group>"; };
+		FF682C1AD1E1B4D1A4149DA5 /* Pods-JKDBModelTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JKDBModelTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JKDBModelTests/Pods-JKDBModelTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +73,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				610FA0591B43D47F00CA50C6 /* libsqlite3.dylib in Frameworks */,
+				3960FEBA7B74756EAA64E4B7 /* libPods-JKDBModel.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9CC5CACC384E826B0018ECEE /* libPods-JKDBModelTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,6 +95,8 @@
 				610FA00C1B43D36F00CA50C6 /* JKDBModel */,
 				610FA0261B43D36F00CA50C6 /* JKDBModelTests */,
 				610FA00B1B43D36F00CA50C6 /* Products */,
+				F03CCD7D9DB5E53890C8F555 /* Pods */,
+				8A6250A78A9ECF3F4330964E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -116,7 +112,6 @@
 		610FA00C1B43D36F00CA50C6 /* JKDBModel */ = {
 			isa = PBXGroup;
 			children = (
-				610FA0471B43D44A00CA50C6 /* FMDB */,
 				610FA0401B43D44300CA50C6 /* DBModel */,
 				610FA0391B43D43B00CA50C6 /* Models */,
 				610FA0331B43D42E00CA50C6 /* Controllers */,
@@ -189,22 +184,24 @@
 			path = DBModel;
 			sourceTree = "<group>";
 		};
-		610FA0471B43D44A00CA50C6 /* FMDB */ = {
+		8A6250A78A9ECF3F4330964E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				610FA0481B43D44A00CA50C6 /* FMDatabase.h */,
-				610FA0491B43D44A00CA50C6 /* FMDatabase.m */,
-				610FA04A1B43D44A00CA50C6 /* FMDatabaseAdditions.h */,
-				610FA04B1B43D44A00CA50C6 /* FMDatabaseAdditions.m */,
-				610FA04C1B43D44A00CA50C6 /* FMDatabasePool.h */,
-				610FA04D1B43D44A00CA50C6 /* FMDatabasePool.m */,
-				610FA04E1B43D44A00CA50C6 /* FMDatabaseQueue.h */,
-				610FA04F1B43D44A00CA50C6 /* FMDatabaseQueue.m */,
-				610FA0501B43D44A00CA50C6 /* FMDB.h */,
-				610FA0511B43D44A00CA50C6 /* FMResultSet.h */,
-				610FA0521B43D44A00CA50C6 /* FMResultSet.m */,
+				5F66CE23549A6824D6A63353 /* libPods-JKDBModel.a */,
+				0483D289E3F1713047AC5372 /* libPods-JKDBModelTests.a */,
 			);
-			path = FMDB;
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F03CCD7D9DB5E53890C8F555 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E96AB5F8378DEA692A8A271A /* Pods-JKDBModel.debug.xcconfig */,
+				BCA6D1BEDE21B9C327265ABB /* Pods-JKDBModel.release.xcconfig */,
+				FF682C1AD1E1B4D1A4149DA5 /* Pods-JKDBModelTests.debug.xcconfig */,
+				212E3710A058A79550D2D213 /* Pods-JKDBModelTests.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -214,9 +211,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 610FA02D1B43D36F00CA50C6 /* Build configuration list for PBXNativeTarget "JKDBModel" */;
 			buildPhases = (
+				284408970C719433CE1EDA72 /* [CP] Check Pods Manifest.lock */,
 				610FA0061B43D36F00CA50C6 /* Sources */,
 				610FA0071B43D36F00CA50C6 /* Frameworks */,
 				610FA0081B43D36F00CA50C6 /* Resources */,
+				09472F8F92009A10BDFC4A5E /* [CP] Embed Pods Frameworks */,
+				768E1CEB0812D928EB25E1A6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -231,9 +231,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 610FA0301B43D36F00CA50C6 /* Build configuration list for PBXNativeTarget "JKDBModelTests" */;
 			buildPhases = (
+				631F8936EF3E16F37679C62F /* [CP] Check Pods Manifest.lock */,
 				610FA01F1B43D36F00CA50C6 /* Sources */,
 				610FA0201B43D36F00CA50C6 /* Frameworks */,
 				610FA0211B43D36F00CA50C6 /* Resources */,
+				1EB63331092FB247AF5689F2 /* [CP] Embed Pods Frameworks */,
+				5E43F63907426D6DD30FBDF9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -302,6 +305,99 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		09472F8F92009A10BDFC4A5E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JKDBModel/Pods-JKDBModel-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1EB63331092FB247AF5689F2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JKDBModelTests/Pods-JKDBModelTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		284408970C719433CE1EDA72 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5E43F63907426D6DD30FBDF9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JKDBModelTests/Pods-JKDBModelTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		631F8936EF3E16F37679C62F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		768E1CEB0812D928EB25E1A6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JKDBModel/Pods-JKDBModel-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		610FA0061B43D36F00CA50C6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -309,17 +405,12 @@
 			files = (
 				610FA0131B43D36F00CA50C6 /* AppDelegate.m in Sources */,
 				610FA0461B43D44300CA50C6 /* JKDBModel.m in Sources */,
-				610FA0531B43D44A00CA50C6 /* FMDatabase.m in Sources */,
 				610FA03F1B43D43B00CA50C6 /* User.m in Sources */,
 				6157C3A51B5B3A1800592F3F /* QueryTableViewController.m in Sources */,
-				610FA0561B43D44A00CA50C6 /* FMDatabaseQueue.m in Sources */,
-				610FA0571B43D44A00CA50C6 /* FMResultSet.m in Sources */,
-				610FA0551B43D44A00CA50C6 /* FMDatabasePool.m in Sources */,
 				610FA0381B43D42E00CA50C6 /* ViewController.m in Sources */,
 				610FA03E1B43D43B00CA50C6 /* Depart.m in Sources */,
 				610FA0101B43D36F00CA50C6 /* main.m in Sources */,
 				610FA0451B43D44300CA50C6 /* JKDBHelper.m in Sources */,
-				610FA0541B43D44A00CA50C6 /* FMDatabaseAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,6 +522,7 @@
 		};
 		610FA02E1B43D36F00CA50C6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E96AB5F8378DEA692A8A271A /* Pods-JKDBModel.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = JKDBModel/Info.plist;
@@ -442,6 +534,7 @@
 		};
 		610FA02F1B43D36F00CA50C6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCA6D1BEDE21B9C327265ABB /* Pods-JKDBModel.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = JKDBModel/Info.plist;
@@ -453,6 +546,7 @@
 		};
 		610FA0311B43D36F00CA50C6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF682C1AD1E1B4D1A4149DA5 /* Pods-JKDBModelTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -472,6 +566,7 @@
 		};
 		610FA0321B43D36F00CA50C6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 212E3710A058A79550D2D213 /* Pods-JKDBModelTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (

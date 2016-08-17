@@ -21,7 +21,11 @@ FMDB的封装，极大简化你的数据库操作，对于自己的扩展也非�
 7.支持arc和mrc。<br>
 
 # how 怎么使用JKDBModel
-使用JKDBModel非常的简单，只需要将FMDB和DBModel拖入项目中，然后添加`libsqlite3.dylib`<br>
+使用JKDBModel非常的简单，使用CocoaPods：
+```TEXT
+pod 'JKDBModel', :git => "https://github.com/cgs3238/JKDBModel.git"
+```
+<br>
 然后让你的实体类继承自JKDBModel，你的实体类就具备了操作数据库的功能。
 
 # demo中有CURD演示操作
@@ -69,7 +73,7 @@ FMDB的封装，极大简化你的数据库操作，对于自己的扩展也非�
 /** 查找某条数据 */
 + (instancetype)findFirstByCriteria:(NSString *)criteria;
 
-/** 通过条件查找数据 
+/** 通过条件查找数据
  * 这样可以进行分页查询 @" WHERE pk > 5 limit 10"
  */
 + (NSArray *)findByCriteria:(NSString *)criteria;
@@ -80,7 +84,7 @@ FMDB的封装，极大简化你的数据库操作，对于自己的扩展也非�
 + (BOOL)createTable;
 
 #pragma mark - must be override method
-/** 如果子类中有一些property不需要创建数据库字段，那么这个方法必须在子类中重写 
+/** 如果子类中有一些property不需要创建数据库字段，那么这个方法必须在子类中重写
  */
 + (NSArray *)transients;
 ```
